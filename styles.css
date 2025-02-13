@@ -62,7 +62,7 @@ html {
   .four .text-box {
     font-size: 22px;
     width: 600px;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
     border: 3px solid #ff3838;
     border-radius: 5px;
@@ -216,7 +216,7 @@ html {
   }
   
   .wish-hbd {
-    font-size: 3em;
+    font-size: 2.3em;
     margin: 0;
     /* text-transform: uppercase; */
   }
