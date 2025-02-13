@@ -103,7 +103,7 @@ body {
 
 #shine {
     font-size: 60px;
-    margin-top: -150px;
+    margin-top: -350px;
     font-weight: bold;
     color: rgba(255, 0, 102, 0.3);
     z-index: 5;
@@ -131,52 +131,38 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
+    
     #shine {
-    font-size: 22px;
-}
-#hedlinecontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-bottom: 60px;
-}
-
-.gallery {
-    --d: 22s;
-    /* duration */
-    display: grid;
-    place-items: center; /* Center both horizontally and vertically */
-    width: 150px;
-    margin-left: 60px;
-}
+        font-size: 40px;
+    }
+    
+    #hedlinecontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .gallery {
+        --d: 22s;
+        /* duration */
+        display: grid;
+        place-items: center; /* Center both horizontally and vertically */
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
 }
 
 .logo{
     position: relative;
+    font-size: 20px;
     display: flex;
     top: 130px;
     text-align: center;
     justify-content: center;
-}
-
-.logo a{
-    margin-bottom: 40px;
-    align-items: center;
-    font-size: 35px;
     font-weight: 800;
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.logo span{
-    font-size: 40px;
-    color: var(--main-color);
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.5s ease;
-    text-shadow: 0 0 25px var(--main-color);
 }
 
 .logo:hover{
@@ -188,7 +174,7 @@ body {
     position: relative;
     display: flex;
     justify-content:center;
-    top: 125px;
+    top: -35px;
 }
 
 [id='toggle-heart'] {
