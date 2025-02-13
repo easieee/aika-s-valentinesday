@@ -311,5 +311,5 @@ const resolveFetch = () => {
 resolveFetch().then(animationTimeline());
 
 document.getElementById('home').addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = 'index.html';
 });
