@@ -1,3 +1,9 @@
+//Music
+function playAudio() {
+  var audio = document.getElementById('background-audio');
+  audio.play();
+}
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
