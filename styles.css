@@ -324,3 +324,23 @@ html {
     margin: 0 10px 0 10px;
   }
 }
+
+.crdt {
+  font-weight: 600;
+  position: fixed;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  mask-image: linear-gradient(-75deg, rgba(255, 0, 0, 0.6) 30%, #fffb00 50%, rgba(255, 0, 0, 0.6) 70%);
+  mask-size: 200%;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  from { mask-position: 150%; }
+  to { mask-position: -50%; }
+}
