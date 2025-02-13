@@ -222,6 +222,7 @@ html {
   }
   
   .wish h5 {
+    text-align: justify;
     font-weight: lighter;
     font-size: 2rem;
     margin: 10px 0 0;
