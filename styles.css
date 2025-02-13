@@ -240,13 +240,23 @@ html {
     z-index: 3;
     cursor: pointer;
   }
-  
-  /* Media Queries */
-  @media screen and (max-width: 730px) {
-    .six .hat {
-      left: 40%;
-    }
+
+#home {
+  font-weight: 700;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#home :hover{
+  transform: scale(1.05);
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+  .six .hat {
+    left: 40%;
   }
+}
   
   @media screen and (max-width: 730px) {
     .six .hat {
