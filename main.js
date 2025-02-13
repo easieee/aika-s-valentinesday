@@ -310,6 +310,12 @@ const resolveFetch = () => {
 
 resolveFetch().then(animationTimeline());
 
-document.getElementById('home').addEventListener("click", () => {
-  window.location.href = 'index.html';
+document.addEventListener("DOMContentLoaded", function() {
+  const paragraph = document.getElementById("clickable-paragraph");
+  paragraph.style.cursor = "pointer"; // Change cursor to pointer to indicate it's clickable
+
+  // Add event listener to paragraph
+  paragraph.addEventListener("click", function() {
+      window.location.href = "index.html"; // Redirect to index.html when paragraph is clicked
+  });
 });
