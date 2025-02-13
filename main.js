@@ -309,3 +309,12 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+
+// Redirect to home page function
+function redirectToHomePage() {
+  window.location.href = "index.html";
+}
+
+// Add event listener to a button for redirection
+const homeBtn = document.getElementById("home-button");
+homeBtn.addEventListener("click", redirectToHomePage);
