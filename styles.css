@@ -235,6 +235,7 @@ html {
   }
   
   #replay {
+    font-weight: 800;
     z-index: 3;
     cursor: pointer;
   }
