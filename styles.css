@@ -61,6 +61,7 @@ html {
   
   .four .text-box {
     text-align: justify;
+    font-weight: 700;
     font-size: 22px;
     width: 600px;
     height:350px;
@@ -235,48 +236,43 @@ html {
   }
   
   #replay {
-    font-weight: 800;
+    font-weight: 700;
     z-index: 3;
     cursor: pointer;
   }
   
   /* Media Queries */
-  @media screen and (max-height: 1000px) {
+  @media screen and (max-width: 730px) {
     .six .hat {
       left: 40%;
     }
   }
   
-  @media screen and (max-height: 800px) {
+  @media screen and (max-width: 730px) {
     .six .hat {
       left: 37%;
     }
   }
   
-  @media screen and (max-height: 700px) {
+  @media screen and (max-width: 730px) {
     .six .hat {
       left: 32%;
     }
   }
   
-  @media screen and (max-height: 850px) and (max-width: 450px) {
+  @media screen and (max-width: 730px) {
     .six .hat {
       left: 32%;
     }
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 730px) {
     .container {
       width: 90%;
     }
   
     .four .text-box {
       width: 90%;
-    }
-  
-    .text-box .fake-btn {
-      right: 5px;
-      bottom: -38px;
     }
   
     .idea-5 span {
@@ -305,3 +301,26 @@ html {
       font-weight: lighter;
     }
   }
+
+@media only screen and  (max-width: 730px) {
+  .one {
+    font-size: 45px;
+  }
+
+  .three {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px 0 10px;
+  }
+
+  .five .idea-3 {
+    margin: 0 10px 0 10px;
+  }
+
+  .five .idea-5 {
+    margin: 0 10px 0 10px;
+  }
+}
