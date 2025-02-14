@@ -309,3 +309,7 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+
+document.getElementById("go-to-index").addEventListener("click", () => {
+  window.location.href = "index.html";
+});
